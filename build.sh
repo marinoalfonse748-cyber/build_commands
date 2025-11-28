@@ -51,11 +51,4 @@ axion marble user gms pico
 ax -br
 mv out/target/product/marble out/target/product/gapps
 
-echo "=== Starting Vanilla (AOSP) build ==="
-. build/envsetup.sh
-axion marble user va
-ax -br
-mv out/target/product/marble out/target/product/vanilla
-
-
 echo "=== All builds completed successfully! ==="
