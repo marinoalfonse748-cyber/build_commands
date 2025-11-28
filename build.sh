@@ -47,6 +47,7 @@ git clone https://github.com/marinoalfonse748-cyber/kernel_xiaomi_marble-modules
 
 echo "=== Starting GMS (Pico) build ==="
 . build/envsetup.sh
+gk -s
 axion marble user gms pico
 ax -br
 mv out/target/product/marble out/target/product/gapps
