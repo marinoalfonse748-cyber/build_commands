@@ -40,10 +40,10 @@ rm -rf "${dirs_to_remove[@]}"
 echo "=== Cloning device trees ==="
 git clone https://github.com/marinoalfonse748-cyber/device_xiaomi_marble device/xiaomi/marble
 git clone https://github.com/marinoalfonse748-cyber/vendor_xiaomi_marble vendor/xiaomi/marble
-git clone https://github.com/LineageOS/android_kernel_xiaomi_sm8450 kernel/xiaomi/marble
+git clone https://github.com/marinoalfonse748-cyber/android_kernel_xiaomi_marble kernel/xiaomi/marble
 git clone https://github.com/fiqri19102002/android_hardware_xiaomi hardware/xiaomi
-git clone https://github.com/LineageOS/android_kernel_xiaomi_sm8450-devicetrees kernel/xiaomi/marble-devicetrees
-git clone https://github.com/LineageOS/android_kernel_xiaomi_sm8450-modules kernel/xiaomi/marble-modules
+git clone https://github.com/marinoalfonse748-cyber/kernel_xiaomi_marble-devicetrees kernel/xiaomi/marble-devicetrees
+git clone https://github.com/marinoalfonse748-cyber/kernel_xiaomi_marble-modules kernel/xiaomi/marble-modules
 
 echo "=== Starting GMS (Pico) build ==="
 . build/envsetup.sh
